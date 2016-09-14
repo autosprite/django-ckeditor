@@ -1,6 +1,10 @@
 Changelog
 =========
 
+3.6.2.1b
+-------
+#. CKEDITOR_UPLOAD_DISABLED parameter added to allow disabling uploads.
+
 3.6.2.1
 -------
 #. Remove unwanted static files from distribution.
