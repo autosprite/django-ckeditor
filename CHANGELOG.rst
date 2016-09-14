@@ -3,7 +3,7 @@ Changelog
 
 3.6.2.1b
 -------
-#. CKEDITOR_UPLOAD_DISABLED parameter added to allow disabling uploads.
+#. Disable uploads when CKEDITOR_UPLOAD_PATH is false.
 
 3.6.2.1
 -------

@@ -70,7 +70,7 @@ class CKEditorWidget(forms.Textarea):
         if value is None:
             value = ''
         final_attrs = self.build_attrs(attrs, name=name)
-        if not getattr(settings, 'CKEDITOR_UPLOAD_DISABLED', None):
+        if not getattr(settings, 'CKEDITOR_UPLOAD_PATH', None):
             self.config['filebrowserUploadUrl'] = reverse('ckeditor_upload')
             self.config['filebrowserBrowseUrl'] = reverse('ckeditor_browse')
         return mark_safe(render_to_string('ckeditor/widget.html', {
